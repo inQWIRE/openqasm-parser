@@ -20,3 +20,5 @@ let parse_with_error lexbuf =
 let get_ast f =
   let lexbuf = Lexing.from_channel (open_in f) in
   parse_with_error lexbuf
+
+module AST = AST
