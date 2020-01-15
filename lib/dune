@@ -1,5 +1,5 @@
 (library
-  (name openQASM))
+  (public_name openQASM))
 
 (ocamllex lexer)
 

@@ -1,7 +1,7 @@
 (lang dune 2.1)
 (using menhir 2.0)
 
-(name openqasm-parser)
+(name openQASM)
 (source (github k4rtik/openqasm-parser))
 (documentation "https://k4rtik.github.io/openqasm-parser")
 (license ISC)
@@ -9,7 +9,7 @@
 (maintainers "kartiksinghal@gmail.com")
 
 (package
- (name openqasm-parser)
+ (name openQASM)
  (synopsis "Parser for OpenQASM (Open Quantum Assembly Language)")
  (description "Parser for OpenQASM (Open Quantum Assembly Language)")
  (depends
