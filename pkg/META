@@ -1,0 +1,7 @@
+description = "Parser for OpenQASM ()Open Quantum Assembly Language)"
+version = "%%VERSION_NUM%%"
+requires = ""
+archive(byte) = "openqasm-parser.cma"
+archive(native) = "openqasm-parser.cmxa"
+plugin(byte) = "openqasm-parser.cma"
+plugin(native) = "openqasm-parser.cmxs"
