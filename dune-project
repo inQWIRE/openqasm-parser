@@ -1,9 +1,9 @@
-(lang dune 2.1)
+(lang dune 2.0)
 (using menhir 2.0)
 
 (name openQASM)
-(source (github k4rtik/openqasm-parser))
-(documentation "https://k4rtik.github.io/openqasm-parser")
+(source (github inQWIRE/openqasm-parser))
+(documentation "https://inQWIRE.github.io/openqasm-parser")
 (license MIT)
 (authors "Kartik Singhal")
 (maintainers "kartiksinghal@gmail.com")
