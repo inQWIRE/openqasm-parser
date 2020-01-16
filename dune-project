@@ -4,7 +4,7 @@
 (name openQASM)
 (source (github k4rtik/openqasm-parser))
 (documentation "https://k4rtik.github.io/openqasm-parser")
-(license ISC)
+(license MIT)
 (authors "Kartik Singhal")
 (maintainers "kartiksinghal@gmail.com")
 
