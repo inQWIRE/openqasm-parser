@@ -17,11 +17,15 @@ Or use the standard `make build` and `make install` commands.
 
 ## Usage
 
-To play with the library, run `dune utop` and issue a command such as:
+To play with the library, run `dune utop` (needs `utop` package) and issue a command such as:
 
 ```ocaml
 OpenQASM.get_ast "teleport.qasm";;
 ```
+
+## Links
+- [Package and module documentation](https://inqwire.github.io/openqasm-parser/openQASM/OpenQASM/)
+- [Package listing on opam repository](https://opam.ocaml.org/packages/openQASM/)
 
 ## Contributing
 Pull requests are welcome.
