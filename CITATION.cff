@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Singhal"
+  given-names: "Kartik"
+  orcid: "https://orcid.org/0000-0003-1132-269X"
+title: "openqasm-parser"
+version: 0.3.0
+date-released: 2020-01-16
+url: "https://github.com/inQWIRE/openqasm-parser"
