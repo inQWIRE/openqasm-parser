@@ -8,3 +8,14 @@ title: "openqasm-parser"
 version: 0.3.0
 date-released: 2020-01-16
 url: "https://github.com/inQWIRE/openqasm-parser"
+preferred-citation:
+  type: conference-paper
+  authors:
+  - family-names: "Singhal"
+    given-names: "Kartik"
+    orcid: "https://orcid.org/0000-0003-1132-269X"
+  conference: "Informal Proceedings of the First International Workshop on Programming Languages for Quantum Computing (PLanQC '20)"
+  month: 1
+  title: "Verified translation between low-level quantum languages"
+  year: 2020
+  url: "https://ks.cs.uchicago.edu/publication/verified-translation/"
