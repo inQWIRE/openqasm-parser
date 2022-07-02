@@ -18,7 +18,9 @@ let parse_with_error lexbuf =
 
 (* core parsing routine *)
 let get_ast f =
-  let lexbuf = Lexing.from_channel (open_in f) in
+  let ic = open_in f in
+  let lexbuf = Lexing.from_channel ic in
+  close_in ic;
   parse_with_error lexbuf
 
 module AST = AST
