@@ -1,4 +1,4 @@
-(lang dune 2.0)
+(lang dune 2.8)
 (using menhir 2.0)
 
 (name openQASM)
@@ -14,7 +14,6 @@
  (description "Parser for OpenQASM (Open Quantum Assembly Language)")
  (depends
   (ocaml (>= 4.08))
-  (dune (>= 2.0))
   (menhir (>= 20190626))))
 
 (generate_opam_files true)
