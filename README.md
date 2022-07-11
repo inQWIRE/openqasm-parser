@@ -3,6 +3,7 @@
 OCaml library for manipulating [OpenQASM](https://github.com/Qiskit/openqasm) Abstract Syntax Tree
 
 ## Requirements
+
 This library requires a recent version of OCaml, `dune` and `menhir`.
 
 ## Installation
@@ -24,11 +25,14 @@ OpenQASM.get_ast "teleport.qasm";;
 ```
 
 ## Links
+
 - [Package and module documentation](https://inqwire.github.io/openqasm-parser/openQASM/OpenQASM/)
 - [Package listing on opam repository](https://opam.ocaml.org/packages/openQASM/)
 
 ## Contributing
+
 Pull requests are welcome.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
