@@ -13,7 +13,8 @@
  (synopsis "Parser for OpenQASM (Open Quantum Assembly Language)")
  (description "Parser for OpenQASM (Open Quantum Assembly Language)")
  (depends
-  (dune (> 1.5))
+  (ocaml (>= 4.08))
+  (dune (>= 2.0))
   (menhir (>= 20190626))))
 
 (generate_opam_files true)
