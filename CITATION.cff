@@ -5,7 +5,7 @@ authors:
   given-names: "Kartik"
   orcid: "https://orcid.org/0000-0003-1132-269X"
 title: "openqasm-parser"
-version: 0.3.0
+version: 0.4.0
 date-released: 2020-01-16
 url: "https://github.com/inQWIRE/openqasm-parser"
 preferred-citation:
